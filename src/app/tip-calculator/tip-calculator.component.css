@@ -1,0 +1,224 @@
+.container {
+  width: 1000px;
+  height: 500px;
+  background-color: var(--white);
+  display: flex;
+  margin: auto;
+  margin-top: 290px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.bill {
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+  row-gap: 10px;
+}
+
+.bill label {
+  padding-top: 40px;
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--dark-grayish-cyan);
+}
+
+.tipContainer {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+.tipContainer p {
+  font-size: 18px;
+  padding-top: 15px;
+  color: var(--dark-grayish-cyan);
+  font-weight: 700;
+}
+
+.tipSelect {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  column-gap: 15px;
+}
+
+.tipBtn:hover {
+  background-color: hsl(185, 66%, 69%);
+  color: var(--very-dark-cyan);
+  cursor: pointer;
+}
+
+#tipInput {
+  width: 118px;
+  border-radius: 10px;
+  font-size: 22px;
+  text-align: right;
+  border: none;
+  padding-right: 10px;
+  outline-color: var(--strong-cyan);
+  color: var(--very-dark-cyan);
+  font-weight: 700;
+}
+
+#tipInput::placeholder {
+  text-align: center;
+  color: var(--dark-grayish-cyan);
+  font-weight: 700;
+}
+
+.tipBtn {
+  width: 130px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 22px;
+  border: none;
+  color: var(--white);
+  background-color: var(--very-dark-cyan);
+  font-weight: 700;
+}
+
+.peopleSelect {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  height: 25%;
+}
+
+.peopleSelect label {
+  font-size: 18px;
+  padding-left: 40px;
+  color: var(--dark-grayish-cyan);
+  font-weight: 700;
+}
+
+#bill {
+  background: white url(../images/icon-dollar.svg) left no-repeat;
+  background-position-x: 15px;
+  width: 82%;
+  height: 45px;
+  margin-left: 40px;
+  text-align: right;
+  border-radius: 6px;
+  border: none;
+  font-size: 24px;
+  padding-right: 10px;
+  color: var(--very-dark-cyan);
+  font-weight: 700;
+  outline-color: var(--strong-cyan);
+}
+
+#people {
+  background: white url(../images/icon-person.svg) left no-repeat;
+  background-position-x: 15px;
+  width: 82%;
+  height: 45px;
+  margin-left: 40px;
+  text-align: right;
+  border-radius: 6px;
+  border: none;
+  font-size: 24px;
+  padding-right: 10px;
+  color: var(--very-dark-cyan);
+  font-weight: 700;
+  outline-color: var(--strong-cyan);
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+/* right side content */
+.tips {
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  width: 50%;
+}
+
+.tipsContent {
+  width: 440px;
+  height: 430px;
+  background-color: var(--very-dark-cyan);
+  margin: auto;
+  border-radius: 20px;
+}
+
+.tipAmount {
+  display: flex;
+  align-items: center;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.tipsText {
+  padding-left: 50px;
+  color: var(--white);
+}
+
+.totalText {
+  padding-left: 50px;
+  color: var(--white);
+}
+
+.tipsText p {
+  color: var(--dark-grayish-cyan);
+}
+
+.totalText p {
+  color: var(--dark-grayish-cyan);
+}
+
+.tipAmountValue {
+  padding-left: 120px;
+  font-size: 32px;
+  color: var(--strong-cyan);
+}
+
+.totalAmountValue {
+  padding-left: 156px;
+  font-size: 32px;
+  color: var(--strong-cyan);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.resetBtn {
+  height: 55px;
+  border-radius: 6px;
+  border: none;
+  width: 80%;
+  font-size: 20px;
+  background-color: var(--strong-cyan);
+  color: var(--very-dark-cyan);
+  font-weight: 700;
+}
+
+.resetBtn:hover {
+  background-color: hsl(185, 66%, 69%);
+  cursor: pointer;
+}
+
+/* hide input arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+:root {
+  --strong-cyan: hsl(172, 67%, 45%);
+  --white: hsl(0, 0%, 100%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --very-dark-cyan: hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(184, 14%, 56%);
+}
+
+body {
+  background-image: url(./app/images/logo.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 150px;
+  background-color: hsl(186, 61%, 80%);
+  font-family: "Space Mono", monospace;
+}
+
+/* - Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Weights: 400, 500, 700 */
