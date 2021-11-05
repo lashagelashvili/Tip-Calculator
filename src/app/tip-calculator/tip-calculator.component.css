@@ -186,12 +186,15 @@ input:hover {
   padding-left: 120px;
   font-size: 32px;
   color: var(--strong-cyan);
+  text-align: right;
+  width: 50px;
 }
 
 .totalAmountValue {
   padding-left: 156px;
   font-size: 32px;
   color: var(--strong-cyan);
+  text-align: right;
 }
 
 .btn {
@@ -214,6 +217,11 @@ input:hover {
 .resetBtn:hover {
   background-color: hsl(185, 66%, 69%);
   cursor: pointer;
+}
+
+.active {
+  background-color: hsl(185, 66%, 69%);
+  color: var(--very-dark-cyan);
 }
 
 /* hide input arrows */
